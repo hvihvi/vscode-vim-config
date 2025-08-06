@@ -1,0 +1,151 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+f",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-editor.action.goToDeclaration",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-workbench.action.debug.run",
+    "when": "debuggersAvailable && !inDebugMode && !terminalFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-deleteRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+cmd+k",
+    "command": "-git.pushTo",
+    "when": "!inDebugMode && !operationInProgress && !terminalFocus"
+  },
+  {
+    "key": "alt+cmd+k",
+    "command": "-keybindings.editor.recordSearchKeys",
+    "when": "inKeybindings && inKeybindingsSearch"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "-editor.action.joinLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-editor.action.joinLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "alt+cmd+b",
+    "command": "-editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "cmd+n f",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "cmd+n d",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "cmd+l",
+    "command": "composerMode.chat"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.tasks.reRunTask",
+    "when": "taskCommandsRegistered && !terminalFocus"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-go.test.previous",
+    "when": "editorLangId == 'go'"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+    "when": "inQuickOpen && inRecentFilesPicker"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "escape",
+    "command": "-list.collapse",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-composer.showBackgroundAgentHistory",
+    "when": "backgroundComposerEnabled || showBackgroundAgentHistoryAction"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "-deleteAllRight",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "-liveshare.join",
+    "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+  }
+]
