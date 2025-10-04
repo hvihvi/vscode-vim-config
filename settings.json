@@ -101,5 +101,13 @@
     }
   ],
   "workbench.colorTheme": "Tokyo Night",
-  "security.promptForLocalFileProtocolHandling": false
+  "security.promptForLocalFileProtocolHandling": false,
+  "amp.url": "https://ampcode.com/",
+  "editor.accessibilitySupport": "off",
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "accessibility.signalOptions.volume": 0,
+  "accessibility.signals.lineHasError": {
+    "sound": "off",
+    "announcement": "off"
+  }
 }
