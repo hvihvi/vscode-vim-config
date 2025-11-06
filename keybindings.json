@@ -68,10 +68,6 @@
     "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
-    "key": "cmd+2",
-    "command": "workbench.action.toggleAuxiliaryBar"
-  },
-  {
     "key": "cmd+n f",
     "command": "explorer.newFile"
   },
@@ -162,5 +158,39 @@
     "key": "cmd+e",
     "command": "-cursor.composer.openAgentWindow",
     "when": "cursor.appLayoutEnabled && cursor.appLayout != 'agent'"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+    "when": "accessibilityHelpIsShown"
+  },
+  {
+    "key": "cmd+4",
+    "command": "-cursor.openBranchMenu",
+    "when": "cursor.agentIdeUnification.featureGate"
+  },
+  {
+    "key": "cmd+4",
+    "command": "-workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command": "cursor.toggleAgentWindowIDEUnification",
+    "when": "cursor.agentIdeUnification.featureGate && workbenchState != 'empty'"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-cursor.toggleAgentWindowIDEUnification",
+    "when": "cursor.agentIdeUnification.featureGate && workbenchState != 'empty'"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.view.search",
+    "when": "workbench.view.search.active && !searchViewletVisible"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.view.search",
+    "when": "workbench.view.search.active && !searchViewletVisible"
   }
 ]
